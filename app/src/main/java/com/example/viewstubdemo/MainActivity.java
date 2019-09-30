@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         hidebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                viewStub.setVisibility(View.GONE);
+                viewStub.setVisibility(View.GONE);//removing visibilty by clcik on hidebutton
             }
         });
     }
